@@ -1,8 +1,11 @@
 <template>
-  <v-app-bar app color="#3c3c3c" dark>
-    <v-spacer />
-    <v-toolbar-title class="text-h4 text-center">Horas Iguais</v-toolbar-title>
-    <v-spacer />
+  <v-app-bar
+    color="#3c3c3c"
+    dark
+    class="d-flex justify-center align-center"
+    height="64"
+  >
+    <v-toolbar-title class="text-h4 mb-0">Horas Iguais</v-toolbar-title>
   </v-app-bar>
 </template>
 

@@ -3,7 +3,7 @@
     <!-- Aqui você chama o seu componente de header -->
     <app-header />
 
-    <v-main>
+    <v-main style="min-height: 80vh">
       <router-view />
     </v-main>
 

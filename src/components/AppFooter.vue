@@ -1,5 +1,5 @@
 <template>
-  <v-footer color="#3c3c3c" dark app>
+  <v-footer color="#3c3c3c" dark>
     <v-container class="text-center">
       <span>
         Desenvolvido por
