@@ -1,18 +1,30 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
-  </div>
+  <v-container class="mt-5">
+    <v-row justify="center">
+      <v-col cols="12">
+        <p class="subtitle-1">
+          As horas iguais sempre despertaram a curiosidade das pessoas, sendo
+          associadas a mensagens especiais do universo, anjos ou sinais do
+          destino. Aqui, você vai descobrir o significado por trás de cada
+          horário e entender o que o seu momento atual pode estar tentando
+          comunicar para você. Explore e conecte-se com esses sinais misteriosos
+          que aparecem no seu dia a dia.
+        </p>
+
+        <hours-list />
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script lang="ts">
+import HoursList from "@/components/HoursList.vue";
 import Vue from "vue";
-import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
 
 export default Vue.extend({
   name: "HomeView",
   components: {
-    HelloWorld,
+    HoursList,
   },
 });
 </script>
